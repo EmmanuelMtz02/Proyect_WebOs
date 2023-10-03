@@ -1,0 +1,127 @@
+/* DISEÑO FECHA */
+.buscador{
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	animation: pulse 1s ease-in-out infinite alternate;
+}
+/* Estilo para el texto "Buscar por Fecha" */
+.buscar {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 18px; /* Tamaño de fuente más grande */
+}
+/* Estilo para el campo de fecha */
+.fecha {
+    width: 240px; /* Aumentar el ancho del campo de fecha */
+    height: 35px; /* Aumentar la altura del campo de fecha */
+    border-radius: 5px; /* Borde redondeado */
+    border: 2px solid #0a0a0a; /* Borde más grueso */
+    padding: 8px; /* Aumentar el relleno para mejorar la apariencia */
+    margin-right: 10px;
+    font-size: 18px; /* Tamaño de fuente más grande */
+}
+/* Estilo para el botón de búsqueda */
+.boton{
+    color: white; /* Texto en blanco */
+    background-color: #003cff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 10px 15px; /* Aumentar el relleno para hacer el botón más grande */
+    cursor: pointer;
+    font-size: 15px; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+}
+
+
+
+
+/* DISEÑO TABLE */
+p{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+table{
+    width: 100%;
+    background: antiquewhite;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif
+}
+.tr-title{
+    background-color: blueviolet;
+    height: 2.5rem;
+    color: black;
+    font-weight: bold;
+}
+.tr-registro{
+    height: 2rem;
+}
+
+
+
+
+/* DISEÑO LOGIN */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(181, 181, 255), rgb(60, 60, 252));
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.title{
+    color: rgb(1, 159, 161);
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.campos{
+    margin-bottom: 35px;
+}
+.varchar{
+    outline: none;
+    color: black;
+    padding: 10 15px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border-color: rgb(1, 159, 161);
+}
+.link{
+    color: #252525;
+    margin-bottom: 15px;
+}
+button{
+    color: white;
+    border: none;
+    background: linear-gradient(to right, rgb(190, 252, 252), rgb(1, 159, 161));
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+}
